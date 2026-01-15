@@ -99,10 +99,10 @@ class HospitalApp:
         tk.Label(self.root, text="Prathima Hospital", font=("Times New Roman",50)).pack(pady=10)
         tk.Label(self.root, text=f"Hello {self.username}, Book your Appointment", font=("Times New Roman", 20)).pack(pady=20)
 
-        self.photo1=tk.PhotoImage(file=r"C:\Users\hamsa\OneDrive\Desktop\Python\my_venv\Scripts\Prathimahospital1.png")
+        self.photo1=tk.PhotoImage(file=r"C:\Users\deekshitha\OneDrive\Desktop\Python\my_venv\Scripts\Prathimahospital1.png")
         tk.Label(self.root,image=self.photo1).place(x=8,y=130)
 
-        self.photo2=tk.PhotoImage(file=r"C:\Users\hamsa\OneDrive\Desktop\Python\my_venv\Scripts\Prathimahospital2.png")
+        self.photo2=tk.PhotoImage(file=r"C:\Users\deekshitha\OneDrive\Desktop\Python\my_venv\Scripts\Prathimahospital2.png")
         tk.Label(self.root, image=self.photo2).place(x=980,y=130)
 
         tk.Label(self.root,text="Enter Patient's Name:").pack(pady=20)
@@ -174,6 +174,7 @@ class HospitalApp:
 
 root = tk.Tk()
 app = HospitalApp(root)
-root.iconbitmap(r"C:\Users\hamsa\OneDrive\Desktop\Python\my_venv\Scripts\Prathimahospitalicon.ico")
+root.iconbitmap(r"C:\Users\deekshitha\OneDrive\Desktop\Python\my_venv\Scripts\Prathimahospitalicon.ico")
 root.config(bg="lavender")
+
 root.mainloop()
